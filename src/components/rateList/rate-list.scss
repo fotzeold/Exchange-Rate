@@ -1,0 +1,55 @@
+img{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+.title__date{
+	padding-top: 4px;
+	margin: auto 0 auto auto;
+	display: flex;
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.title__filter {
+	font-size: 1.4em;
+	&-inp{
+		font-size: 18px;
+		padding-left: 8px;
+	}
+}
+.rate__list{
+	padding: 20px 0 20px 0;
+}
+.rate__wrapper{
+	margin: 20px 0 20px 0;
+	box-shadow: 2px 2px 5px black;
+	padding: 15px;
+
+	.rate__title{
+		font-size: 1.6em;
+	}
+	.rate__sub-title{
+		font-size: 1.3em;
+	}
+}
+
+.paggination{
+	display: flex;
+	position: absolute;
+	bottom: 40px;
+	&__btn{
+		cursor: pointer;
+		width: 25px;
+		text-align: center;
+		padding: 5px 0;
+		margin: 5px;
+		box-shadow: 1px 1px 3px black;
+	}
+	.active{
+		position: relative;
+		top: -5px;
+	}
+}
