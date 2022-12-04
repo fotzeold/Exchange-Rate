@@ -14,3 +14,20 @@ option{
 	display: block;
 	padding: 10px 0 10px 0;
 }
+
+@media (max-width: 768px) {
+	.row{
+		.converter-inp{
+			width: 60%;
+		}
+		select{
+			position: relative;
+			top: -3.8px;
+			height: 38.5px;
+			margin: 0;
+			font-size: 12px;
+		}
+	}
+}
+
+

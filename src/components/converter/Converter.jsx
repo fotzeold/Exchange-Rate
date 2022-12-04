@@ -69,6 +69,7 @@ const Converter = (props) => {
 		<>
 			<div className="row">
 				<input type="number"
+					className='converter-inp'
 					onChange={(e) => { setTopValue(e.target.value) }}
 					onFocus={onFocusTop}
 					onBlur={() => setFocusTop(false)}
@@ -90,6 +91,7 @@ const Converter = (props) => {
 			</div>
 			<div className="row">
 				<input type="number"
+					className='converter-inp'
 					onChange={(e) => { setBottomValue(e.target.value) }}
 					onFocus={onFocusBottom}
 					onBlur={() => setFocusBottom(false)}

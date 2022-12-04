@@ -38,8 +38,7 @@ img{
 
 .paggination{
 	display: flex;
-	position: absolute;
-	bottom: 40px;
+
 	&__btn{
 		cursor: pointer;
 		width: 25px;
@@ -51,5 +50,42 @@ img{
 	.active{
 		position: relative;
 		top: -5px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.paggination {
+		display: none;
+	}
+	.title__date{
+		position: absolute;
+		top: 4px;
+		font-size: 18px;
+		right: 30px;
+		img{
+			display: none;
+		}
+	}
+	.title__filter{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.title__filter-inp{
+		width: 100%;
+	}
+}
+
+@media (max-width: 350px) {
+	.title__date{
+		position: absolute;
+		top: 40px;
+		font-size: 18px;
+		right: 30px;
+	}
+	.title__filter{
+		text-align: center;
+		margin-top: 40px;
+		padding-bottom: 20px;
 	}
 }
