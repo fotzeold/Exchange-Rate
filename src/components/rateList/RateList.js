@@ -60,7 +60,7 @@ const RateList = (props) => {
 						type="search"
 						placeholder='USD або долар...'
 						onKeyDown={(e) => {
-							if (/[^a-zA-Z]/.test(e.key)) {
+							if (/[^a-zA-Z,а-яА-Я]/.test(e.key)) {
 								e.preventDefault();
 							}
 						}}
